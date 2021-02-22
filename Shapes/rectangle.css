@@ -1,0 +1,9 @@
+.rectangle {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -100px; /* top and left margins to truly center the element */
+  }
