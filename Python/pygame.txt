@@ -1,0 +1,9 @@
+Syntax 
+
+Import pygame – Access Pygame 
+pygame.init () – Initialize all pygame modules
+pygame.display.set.mode ((w,h)) – Window dimension
+pygame.event.get – Empty the events queue before adding a new one
+pygame.quit – Exit the program
+pygame.display.fit () – Update graphics
+pygame.draw.rect –  Indicate specifics like the color or dimension of the shape of the character

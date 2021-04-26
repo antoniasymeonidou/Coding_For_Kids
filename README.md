@@ -9,7 +9,7 @@
 
   <img src="https://docs.google.com/drawings/d/e/2PACX-1vR6nEuXqiz67um2BdMQQXTdiwdPXhG1flx28EBnrDCcKLpeNEuxz92QerJ1_OkVswUQhzpqH0-wXXL4/pub?w=500&amp;h=500">
   
-## Coding Exercies For kids
+## Coding Exercises For kids
 
 <table>
   <tbody>
