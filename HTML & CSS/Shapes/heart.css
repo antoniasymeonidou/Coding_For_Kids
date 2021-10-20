@@ -1,28 +1,36 @@
+body {
+  background: pink;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 .heart {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -50px 0 0 -50px; /* top and left margins to truly center the element */
-  }
-  
-  .heart::before, .heart::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 52px;
-    height: 80px;
-    border-radius: 50px 50px 0 0;
-    background: red;
-  }
-  
-  .heart::before {
-    left: 50px;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
-  }
-  
-  .heart::after {
-    left: 0;
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
-  }
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  transform: rotate(-45deg);
+}
+
+.heart::before,
+.heart::after {
+  content: '';
+  background-color: red;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  transition: background-color 1s;
+}
+
+.heart::before {
+  top: -35px;
+}
+
+.heart::after {
+  left: 35px;
+}
