@@ -1,0 +1,13 @@
+.leaf {
+  width: 200px;
+  height: 200px;
+  border-radius: 0 100%;
+  background-image: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
